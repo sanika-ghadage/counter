@@ -1,17 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/**/*.{js,ts,jsx,tsx}', // Ensures Tailwind scans all JS/JSX files in the src directory
+    './pages/**/*.{js,ts,jsx,tsx}', // If you have any pages folder
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+    extend: {},
   },
+  darkMode: 'class', // Enable dark mode if you're using it
   plugins: [],
 };
+
