@@ -106,5 +106,5 @@ Contributions are welcome! If you find a bug or have an idea for a new feature:
 
 ---
 
-Built with ❤️ by [sanika_ghadage](https://github.com/sanika-ghadage).
+Built by [sanika_ghadage](https://github.com/sanika-ghadage).
 
